@@ -54,3 +54,4 @@ dkms.conf
 \.vs
 \debug
 Pagamento/Merleta\.PagamentoContext\.Domain/obj/
+/Pagamento/Merleta.PagamentoContext.Domain.Tests/obj

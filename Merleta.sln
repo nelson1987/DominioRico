@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagamento", "Pagamento", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merleta.PagamentoContext.Domain", "Pagamento\Merleta.PagamentoContext.Domain\Merleta.PagamentoContext.Domain.csproj", "{5451E9BF-7769-4A64-BE78-D76B1D339B4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merleta.PagamentoContext.Domain.Tests", "Pagamento\Merleta.PagamentoContext.Domain.Tests\Merleta.PagamentoContext.Domain.Tests.csproj", "{1D2FB59B-F328-4A03-8199-F8462D12513D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{5451E9BF-7769-4A64-BE78-D76B1D339B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5451E9BF-7769-4A64-BE78-D76B1D339B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5451E9BF-7769-4A64-BE78-D76B1D339B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2FB59B-F328-4A03-8199-F8462D12513D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2FB59B-F328-4A03-8199-F8462D12513D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2FB59B-F328-4A03-8199-F8462D12513D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2FB59B-F328-4A03-8199-F8462D12513D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5451E9BF-7769-4A64-BE78-D76B1D339B4A} = {32E43463-D347-4A1B-BCCC-72B659D2C365}
+		{1D2FB59B-F328-4A03-8199-F8462D12513D} = {32E43463-D347-4A1B-BCCC-72B659D2C365}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11015DD8-EFA4-43BD-81BC-A211967F2224}
