@@ -1,8 +1,11 @@
 ﻿namespace Merleta.PagamentoContext.Domain.Entities
 {
-    public class Cliente
+    public class Cliente : Fornecedor
     {
-        public string Nome { get; private set; }
-        public string Documento { get; private set; }
+        public Cliente(string nome, string documento)
+            : base(nome, documento)
+        {
+
+        }
     }
 }

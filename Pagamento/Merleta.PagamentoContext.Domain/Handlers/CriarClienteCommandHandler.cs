@@ -24,7 +24,10 @@ namespace Merleta.PagamentoContext.Domain.Handlers
             }
 
             //TODO: Salvar o cliente
-            Cliente clienteCriado = new Cliente();
+            Cliente clienteCriado = new Cliente(
+                command.Nome, 
+                command.Documento
+                );
             _repository.Criar(clienteCriado);
             //TODO: Enviar email ao cliente
 

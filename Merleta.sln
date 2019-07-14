@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagamento", "Pagamento", "{32E43463-D347-4A1B-BCCC-72B659D2C365}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merleta.PagamentoContext.Domain", "Pagamento\Merleta.PagamentoContext.Domain\Merleta.PagamentoContext.Domain.csproj", "{5451E9BF-7769-4A64-BE78-D76B1D339B4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merleta.PagamentoContext.Domain", "Pagamento\Merleta.PagamentoContext.Domain\Merleta.PagamentoContext.Domain.csproj", "{5451E9BF-7769-4A64-BE78-D76B1D339B4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merleta.PagamentoContext.Domain.Tests", "Pagamento\Merleta.PagamentoContext.Domain.Tests\Merleta.PagamentoContext.Domain.Tests.csproj", "{1D2FB59B-F328-4A03-8199-F8462D12513D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merleta.PagamentoContext.Domain.Tests", "Pagamento\Merleta.PagamentoContext.Domain.Tests\Merleta.PagamentoContext.Domain.Tests.csproj", "{1D2FB59B-F328-4A03-8199-F8462D12513D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merleta.App", "Merleta.App\Merleta.App.csproj", "{209B049D-E49D-44AB-B68E-41C261A897CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{1D2FB59B-F328-4A03-8199-F8462D12513D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D2FB59B-F328-4A03-8199-F8462D12513D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D2FB59B-F328-4A03-8199-F8462D12513D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209B049D-E49D-44AB-B68E-41C261A897CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209B049D-E49D-44AB-B68E-41C261A897CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209B049D-E49D-44AB-B68E-41C261A897CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209B049D-E49D-44AB-B68E-41C261A897CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
